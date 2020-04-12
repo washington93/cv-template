@@ -1,0 +1,35 @@
+.skillBar{
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  text-align: left;
+  align-items: center;
+  /* justify-content: center; */
+  color:  white;
+  font-size: medium;
+  padding-left: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.skillBar:hover{
+  box-shadow:0 2px 200px 0 rgba(0,0,0,0.16),
+             0 2px 10px 0 rgba(0,0,0,0.12);
+  /* cursor: help;     */
+}
+
+.progress{
+  z-index: 0;
+  position: absolute;
+  width: 25%;
+  min-height: 100px;
+  left: 0;
+}
+
+.title{
+  z-index: 1;
+  position: absolute;
+  font-size: medium;
+  color: black;
+}

@@ -26,8 +26,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font: 400 small Roboto, sans-serif;
-   width: 100%;
+  font: 4.5 small Roboto, sans-serif;
+  width: 100%;
   max-width: 90%;
   max-height: 28.5px;
   padding: 8px 5px 5px 5px;

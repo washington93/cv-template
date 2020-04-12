@@ -4,7 +4,7 @@ import './styles.css'
 
 import profileImgDefault from '../../assets/profileDafault.png'
 
-export default function PictureProfile({name = "unamed", img}){
+export default function PictureProfile({name = "unamed", img = profileImgDefault}){
   if(img !== undefined && img !== ""){
     return(
       <div className="pictureProfile">

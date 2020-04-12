@@ -1,0 +1,12 @@
+.skillStatus{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.skillCategory{
+  text-align: center;
+  font-size: 4.5vh;
+}

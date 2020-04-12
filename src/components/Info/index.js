@@ -5,7 +5,7 @@ import './styles.css'
 
 
 export default function Info({
-    icon = (<AiOutlineFile />), 
+    icon = (<AiOutlineFile size={28}/>), 
     description="Description",
     color = 'teal'
   }){

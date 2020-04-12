@@ -14,7 +14,6 @@ body  {
   font: 400 14px Roboto, sans-serif;
   background: #f0f0f5; 
   -webkit-font-smoothing: antialiased;
-  padding: 8px;
 }
 
 .card{
@@ -45,7 +44,7 @@ body  {
   margin-left: -5;
   margin-right: -5;
   margin-bottom: 5px;
-  margin-top: 5px;
+  /* margin-top: 8px; */
 }
   .row:before,
   .row:after {
@@ -61,8 +60,8 @@ body  {
   display: inline-block;
   vertical-align: top;
   min-height: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
   width: 100%;
   /* margin-right: -4px; */
   *zoom: 1;
@@ -74,21 +73,39 @@ body  {
           width: 50%;
       }
   }
-
   /* tres colunas */
-  @media (min-width: 728px) {
+  @media (min-width: 602px) {
       .col-3 {
           width: 33.3333%;
       }
   }
+  /* tres colunas */
+  @media (min-width: 602px) {
+    .col-3 {
+      width: 33.3333%;
+    }
+  
+  @media (min-width: 602px) {
+    .col-4{
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 602px) {
+    .col-5{
+      width: 20%;
+    }
+  }
+}
 
   /* sidebar */
-  @media (min-width: 992px) {
+  @media (min-width: 602px) {
       .col-content {
-          width: 60%;
+          width: calc(70% - 5px);
+          margin-left: 4px;
       }
 
       .col-sidebar {
-         width: 40%;
+         width: 30%;
       }
   }

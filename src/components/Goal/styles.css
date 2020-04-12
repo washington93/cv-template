@@ -1,0 +1,22 @@
+.goal{
+  padding: 8px;
+}
+
+.goalHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 8px;
+}
+
+.goalTitle{
+  margin-left: 16px;
+  font: 4.5 xx-large Roboto, sans-serif;
+  color: black;
+}
+
+.goalContent {
+  padding: 8px;
+  font: 4.5 medium Roboto, sans-serif;
+}

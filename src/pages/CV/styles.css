@@ -1,8 +1,16 @@
+.cv{
+  padding: 8px;
+}
+
 .square{
   width: 100%;
-  height: 100px;
+  height: 10vh;
 }
 
 .footer{
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: -12px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  padding: 0;
 }
